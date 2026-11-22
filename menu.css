@@ -1,0 +1,131 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.container-navbar {
+    height: 10vh;
+    background-color: rgb(210, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style: none;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(225, 55, 55);
+    transition: 0.4s ease-in-out;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: white;
+}
+
+.container-content {
+    background-color: rgb(255, 246, 232);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 50px max(20px, calc((100% - 1000px) / 2));
+}
+
+.card-menu {
+    background-color:rgb(231, 226, 226);
+    text-decoration: none;
+    color:rgb(60, 10, 10);
+    padding: 20px 0 25px;
+    width: 240px;
+    height: auto;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border-radius: 40px;
+    border-top: 8px solid rgb(243, 5, 5);
+    box-sizing: border-box;
+        box-shadow: 8px 8px 0px 0px rgb(255, 193, 7);
+    -webkit-box-shadow: 8px 8px 0px 0px rgb(255, 193, 7);
+    -moz-box-shadow: 8px 8px 0px 0px rgb(255, 193, 7);
+}
+
+.card-menu:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease-in-out;
+}
+
+.img-menu {
+    width: 85%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.h2-menu {
+    font-size: 28px;
+    color: rgb(170, 0, 0);
+}
+
+.p-menu {
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.harga-menu {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: auto;
+    color: white;
+    background-color: rgb(243, 5, 5);
+    padding: 6px 20px;
+    border-radius: 30px;
+}
+
+.container-footer {
+    background-color: rgb(210, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.a-footer:hover {
+    color: rgb(255, 225, 225);
+    transition: 0.3s ease-in-out;
+}
+
+.h1-footer {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
